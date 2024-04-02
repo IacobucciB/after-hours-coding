@@ -70,15 +70,21 @@
   :config
   (require 'tree-sitter-langs)
 
-  ;; Load the languages you want (Python, Java, Ruby)
+  ;; Load the languages you want (Python, Java, Ruby, C, HTML, JavaScript)
   (tree-sitter-require 'python)
   (tree-sitter-require 'java)
   (tree-sitter-require 'ruby)
+  (tree-sitter-require 'c)
+  (tree-sitter-require 'html)
+  (tree-sitter-require 'javascript)
 
   ;; Define major modes to enable Tree-sitter for each language
   (add-hook 'python-mode-hook #'tree-sitter-hl-mode)
   (add-hook 'java-mode-hook #'tree-sitter-hl-mode)
   (add-hook 'ruby-mode-hook #'tree-sitter-hl-mode)
+  (add-hook 'c-mode-hook #'tree-sitter-hl-mode)
+  (add-hook 'html-mode-hook #'tree-sitter-hl-mode)
+  (add-hook 'js-mode-hook #'tree-sitter-hl-mode)
   )
 
 ;; Company Mode:
