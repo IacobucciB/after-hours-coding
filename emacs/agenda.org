@@ -1,0 +1,32 @@
+* UNLP
+** TODO [#A] Fisica 2 - TP0
+DEADLINE: <2024-07-17 mié.>
+:CATEGORY: UNLP
+:END:
+
+** TODO [#B] CDyM - Ent4 PWM y ADC
+DEADLINE: <2024-07-29 lun.>
+:CATEGORY: UNLP
+:END:
+
+** TODO [#C] CyP - Practica Adicional
+DEADLINE: <2024-07-31 mié.>
+:CATEGORY: UNLP
+:END:
+
+* DEV
+** TODO [#C] Implementar menu Game of Life Godot
+SCHEDULED: <2024-07-16 mar.>
+:CATEGORY: DEV
+:END:
+
+** TODO [#B] HTML Terminar Notas
+DEADLINE: <2024-07-19 vie.>
+:CATEGORY: DEV
+:END:
+
+* OTROS
+** TODO [#C] Intro a PHP, PHP vs Java
+SCHEDULED: <2024-07-20 sáb.>
+:CATEGORY: OTROS
+:END:
