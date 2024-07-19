@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#E1D8EF">
+    <title>Portafolio Académico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="links">
+                <li><a href="https://iacobuccib.github.io/">Inicio</a></li>
+                <li><a href="https://github.com/IacobucciB">Github</a></li>
+                <li><a href="#">Sobre Mí</a></li>
+                <li><a href="#">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <h1>Bienvenido a Mi Portafolio</h1>
+        <section>
+            <p>Ingeniero en formación apasionado por la programación.</p>
+            <p>Aca es donde dejo los distintos proyectos de programacion que hago. Es una forma de documentarlos mas
+                alla de un simple README.md y ofrecer mas contexto sobre el desarrollo de los mismos.</p>
+        </section>
+
+
+        <h1>Proyectos</h1>
+
+        <section>
+            <h2>Arduino y C Embebido</h2>
+            <p>Proyectos hechos para la materia "Circuitos Digitales y Microcontroladores". Estos links llevan a la
+                documentacion de los diferentes
+                proyectos, sus respectivos repositorios en Github y videos tipo demonstracion</p>
+            <a href="./atmega/index.html">~ Control de periféricos LED externos con puertos de entrada/salida</a>
+            <br>
+            <a href="#">~ Control de LCD y Teclado, Maquina de Estado Finito y Timers</a>
+        </section>
+
+        <section>
+            <h2>Veterinaria con Ruby on Rails</h2>
+            <p>Proyecto colaborativo que realicé con dos colegas universitarios: un completo Sistema de Citas
+                Veterinarias desarrollado utilizando el framework Ruby on Rails. Esta aplicación web sirve como una
+                plataforma fácil de usar que facilita diversas funcionalidades dentro del ámbito veterinario.</p>
+            <a href="https://github.com/IacobucciB/veterinary-ohmydog-rails">Link al Repositorio</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Iacobucci</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
