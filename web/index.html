@@ -1,100 +1,114 @@
-<!DOCTYPE html> <!-- HTML5 --->
+<!DOCTYPE html>
 <html>
 
 <head>
-  <meta charset="utf-8"> <!-- codificacion que tiene que usar el archivo --->
-  <meta name="viewport" content="width=device-width"> <!-- ancho del contenido = ancho de pantalla--->
-  <title>TEST</title> <!-- importante para el SEO, es el que aparece en Google!--->
-
-  <meta name="robots" content="indent, follow">
-  <meta name="theme-color" content="#E1D8EF"> <!-- color barra url--->
-  <meta name="description" content="Portfolio de Junay, Estudiante de Ingenieria en Computacion">
-  <!-- describe el contenido, aparece en Google debajo del Link-->
-
-  <!-- OPEN GRAPH -->
-  <!-- como se ev al compartir en redes sociales -->
-
-  <meta property="og:title" content="Portfolio">
-  <meta property="og:description" content="Portfolio de Junay, Estudiante...">
-  <meta property="og:image" content="./Tako-pfp.png">
-  <meta property="og:image:alt" content="Takodachi PFP">
-
-  <link rel="icon" type="image/png" href="./Tako-pfp.png"> <!-- favicon --->
-
-  <link rel="alternate" href="./index_EN.html" hreflang="en-GB">
-  <link rel="canonical" href="./index.html">
-
-  <style>
-    body {
-      background: #E1D8EF;
-    }
-  </style>
-
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>IacobucciB</title>
+	<link rel="icon" type="image/x-icon" href="./Tako-pfp.png">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+		integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
-  <header>
-    <h1>Portfolio de Junay</h1>
-    <nav>
-      <a href="#sobremi">Sobre Mi</a>
-      <a href="#proyectos">Proyectos</a>
-      <a href="https://github.com/IacobucciB" target="_blank" rel="noreferrer">Github</a>
-    </nav>
-  </header>
+	<div class="container">
 
-  <main>
+		<div class="welcome">
+			<header>
+				<h1>Welcome,</h1>
 
-    <h2>Portfolio de Junay</h2>
-    <h3>Portfolio de Junay</h3>
-    <h4>Portfolio de Junay</h4>
-    <h5>Portfolio de Junay</h5>
-    <h6>Portfolio de Junay</h6>
+				<section>
+					<p>I am Iacobucci Juan Bautista</p>
+					<p>Engineering student passionate about programming.</p>
+					<div class="social-icons">
+						<a href="https://github.com/IacobucciB" target="_blank" class="icon">
+							<i class="fab fa-github"></i>
+						</a>
+						<a href="https://www.linkedin.com/in/juan-bautista-iacobucci/" target="_blank" class="icon">
+							<i class="fab fa-linkedin"></i>
+						</a>
+					</div>
+				</section>
+				<img id="pfp" src="./Me-pfp.jpeg" alt="Tako-pfp">
+			</header>
+		</div>
 
-    <!-- COMENTARIOS -->
-    <article id="sobremi">
-      <header>
-        <h3>Portfolio de Junay</h3>
-      </header>
-      <p>Estudiante de Ingenieria en Computacion en la UNLP. Entusiasta del <em>Software Libre.</em></p>
-      <p>Estudiante de <strong>Ingenieria en Computacion</strong> en la UNLP</p>
-      <footer>Siempre disponible</footer>
-    </article>
+		<div class="info">
 
-    <h2 id="proyectos">Proyectos</h2>
-    <ul>
-      <li>Veterinaria Oh My Dog!</li>
-      <li>Arduino</li>
-    </ul>
+			<h1>Projects</h1>
 
-    <aside>
-      <h2>Tecnologias</h2>
-      <ol>
-        <li class="list-item">Ruby</li>
-        <li class="list-item">C</li>
-      </ol>
-    </aside>
+			<section>
+				<h2>Arduino - Embedded C</h2>
+				<p>
+					I have worked on various projects using Embedded C and Arduino, developed with the Atmel Studio
+					suite.
+					These projects include:</p>
+				<ul>
+					<li>RGB LED control</li>
+					<li>Temperature and humidity sensor registering</li>
+					<li>Simple keyboards</li>
+				</ul>
+				<p class="tech"><span>Embedded C</span> <span>Arduino</span> <span>Atmel Studio</span></p>
+			</section>
 
-    <img id="pfp" width="150" hegiht="150" title="Takodachi PFP" alt="Una foto de un Takodachi como Profile Picture"
-      src="./Tako-pfp.png">
+			<section>
+				<h2>Veterinary Clinic</h2>
+				<p>
+					Collaborative project I carried out with two university colleagues.
+					A complete Veterinary Appointment System developed using the Ruby on Rails framework.
+					This web application serves as an easy-to-use platform that facilitates various functionalities
+					within
+					the veterinary field.
+				</p>
+				<a href="https://github.com/IacobucciB/veterinary-ohmydog-rails">Link to Repository</a>
+				<p class="tech"><span>Ruby on Rails</span> <span>HTML</span> <span>Bootstrap</span>
+					<span>JavaScript</span>
+					<span>PostgreSQL</span>
+				</p>
 
-    <br>
+			</section>
 
-    <input>
+			<section>
+				<h2>Conway's Game of Life</h2>
+				<p>
+					Developed an implementation of Conway's Game of Life using the Godot engine.
+					This project involved creating a simulation of cellular automaton that demonstrates how simple
+					rules
+					can
+					lead to complex behavior.
+				</p>
+				<p class="tech"><span>Godot</span> <span>GDScript</span> <span>2D Game Development</span></p>
+			</section>
 
-    <input type="datetime-local">
 
-    <input type="color">
+		</div>
 
-    <input type="file">
+	</div>
 
-    <input type="range">
-  </main>
+	<footer>
+		<section>
+			<h2>About Me</h2>
+			<p>
+				I am Iacobucci Juan Bautista, an engineering student passionate about programming and
+				technology.
+				My academic journey has been marked by a strong focus on software development and embedded
+				systems.
+			</p>
+			<p>
+				I strive to create efficient, user-friendly solutions that address real-world problems.
+				I am always eager to learn new technologies and take on challenging tasks to further enhance my
+				skills
+				and knowledge
+				in the field of engineering and programming.
+			</p>
+		</section>
+	</footer>
 
-  <footer>
-    Copy &copy; 2024
-  </footer>
 
+	<script src="./script.js"></script>
 </body>
 
 </html>
