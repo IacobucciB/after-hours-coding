@@ -25,7 +25,13 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println("Hello World o7");
+        System.out.println("020 - Valid Parentheses");
 
+        String example1 = "()";
+        System.out.println(isValid(example1));
+        String example2 = "()[]{}";
+        System.out.println(isValid(example2));
+        String example3 = "(]";
+        System.out.println(isValid(example3));
     }
 }
