@@ -11,15 +11,31 @@ public class Main {
     }
 
     public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        ListNode res = null;
+
         if (list1 == null && list2 == null) {
-            return res;
+            return null;
         }
         if (list1 != null && list2 == null) {
             return list1;
         }
         if (list1 == null && list2 != null) {
             return list2;
+        }
+
+
+        ListNode res = new ListNode(0);
+        ListNode l1 = list1;
+        ListNode l2 = list2;
+        ListNode aux = res;
+
+        while (l1 != null && l2 != null) {
+            if (l1.val < l2.val) {
+                ListNode n = new ListNode(l1.val);
+                n.next = aux;
+            } else {
+                
+            }
+            
         }
 
         return res;
