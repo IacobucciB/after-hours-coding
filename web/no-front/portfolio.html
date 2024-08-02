@@ -18,10 +18,40 @@
             text-align: center;
             border: 1px solid black;
             border-radius: 10px;
+            transition: background-color 0.3s ease
+        }
+
+        th:hover,
+        td:hover {
+            background-color: #DCEDC8;
+        }
+
+        img {
+            max-width: 50%;
+            border-radius: 10px;
+        }
+
+        li {
+            list-style-type: square;
+        }
+
+        nav a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        nav a:visited,
+        nav a:hover,
+        nav a:active {
+            color: inherit;
         }
 
         @media (max-width: 600px) {
             body {
+                max-width: 100%;
+            }
+
+            img {
                 max-width: 100%;
             }
         }
@@ -34,8 +64,8 @@
         <nav>
             <table width="100%">
                 <tr>
-                    <th>Github</th>
-                    <th>Linkedin</th>
+                    <th><a href="https://github.com/IacobucciB" target="_blank">Github</a></th>
+                    <th><a href="https://www.linkedin.com/in/juan-bautista-iacobucci/" target="_blank">LinkedIn</a></th>
                 </tr>
             </table>
         </nav>
@@ -43,6 +73,10 @@
         <h1>Welcome,</h1>
         <section>
             <p>I am Iacobucci Juan Bautista, an engineering student passionate about programming.</p>
+            <details>
+                <summary>Profile Picture</summary>
+                <img src="pfp-ai.jpg" alt="Profile Picture">
+            </details>
         </section>
     </header>
 
@@ -51,24 +85,26 @@
             <h2>Projects</h2>
 
             <article>
-                <h3>Arduino - Embedded C</h3>
+                <h3>Embedded C - Arduino</h3>
                 <p>
                     I have worked on various projects using Embedded C and Arduino, developed with the Atmel Studio
                     suite. These projects include:
                 </p>
                 <ul>
-                    <li>RGB LED control</li>
+                    <li>LED control</li>
                     <li>Temperature and humidity sensor registering</li>
-                    <li>Simple keyboards</li>
+                    <li>A Keyboard</li>
+                    <li>RGB Lights control</li>
                 </ul>
             </article>
 
             <article>
                 <h3>Veterinary Clinic</h3>
                 <p>
-                    Collaborative project carried out with two university colleagues. A complete Veterinary Appointment
-                    System developed using the Ruby on Rails framework. This web application serves as an easy-to-use
-                    platform that facilitates various functionalities within the veterinary field.
+                    A complete Veterinary Appointment System developed using the Ruby on Rails framework.
+                    Collaborative project carried out with two university colleagues.
+                    This web application serves as an easy-to-use platform that facilitates various functionalities
+                    within the veterinary field.
                 </p>
                 <p><a href="https://github.com/IacobucciB/veterinary-ohmydog-rails">Link to Repository</a></p>
             </article>
